@@ -1,4 +1,4 @@
-package com.sateraito.chatapp.activities;qweqwe
+package com.sateraito.chatapp.activities;
 
 import com.sateraito.chatapp.R;
 import com.sateraito.chatapp.ultilities.Constant;
