@@ -373,6 +373,10 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f090000;
         public static final int activity_vertical_margin=0x7f090001;
+        public static final int margin_top_button_login=0x7f090004;
+        /**  Login screen 
+         */
+        public static final int margin_top_logo_login=0x7f090003;
         /**  Plash screen 
          */
         public static final int margin_top_logo_splash=0x7f090002;
@@ -404,17 +408,21 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f020017;
         public static final int common_signin_btn_text_pressed_dark=0x7f020018;
         public static final int common_signin_btn_text_pressed_light=0x7f020019;
-        public static final int ic_launcher=0x7f02001a;
-        public static final int ic_plusone_medium_off_client=0x7f02001b;
-        public static final int ic_plusone_small_off_client=0x7f02001c;
-        public static final int ic_plusone_standard_off_client=0x7f02001d;
-        public static final int ic_plusone_tall_off_client=0x7f02001e;
-        public static final int powered_by_google_dark=0x7f02001f;
-        public static final int powered_by_google_light=0x7f020020;
-        public static final int splash=0x7f020021;
+        public static final int ic_chat_room=0x7f02001a;
+        public static final int ic_launcher=0x7f02001b;
+        public static final int ic_plusone_medium_off_client=0x7f02001c;
+        public static final int ic_plusone_small_off_client=0x7f02001d;
+        public static final int ic_plusone_standard_off_client=0x7f02001e;
+        public static final int ic_plusone_tall_off_client=0x7f02001f;
+        public static final int ic_search=0x7f020020;
+        public static final int powered_by_google_dark=0x7f020021;
+        public static final int powered_by_google_light=0x7f020022;
+        public static final int splash=0x7f020023;
     }
     public static final class id {
+        public static final int action_chat_room=0x7f070019;
         public static final int action_settings=0x7f070016;
+        public static final int action_sign_out=0x7f070017;
         public static final int book_now=0x7f070010;
         public static final int buyButton=0x7f07000a;
         public static final int buy_now=0x7f07000f;
@@ -431,6 +439,7 @@ containing a value of this type.
         public static final int production=0x7f070007;
         public static final int sandbox=0x7f070008;
         public static final int satellite=0x7f070002;
+        public static final int search=0x7f070018;
         public static final int selectionDetails=0x7f07000b;
         public static final int sign_in_button=0x7f070014;
         public static final int sign_out_button=0x7f070015;
@@ -451,7 +460,11 @@ containing a value of this type.
     }
     public static final class string {
         public static final int accept=0x7f050002;
+        public static final int action_chat_room=0x7f050026;
+        /**  Option Menu 
+         */
         public static final int action_settings=0x7f050024;
+        public static final int action_sign_out=0x7f050025;
         public static final int app_name=0x7f050023;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
@@ -555,6 +568,7 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f050005;
         public static final int create_calendar_title=0x7f050004;
         public static final int decline=0x7f050003;
+        public static final int search_title=0x7f050027;
         public static final int store_picture_message=0x7f050001;
         public static final int store_picture_title=0x7f050000;
         /**  Text on a placeholder buy button when Google Play services is not

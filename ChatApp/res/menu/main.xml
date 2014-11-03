@@ -1,11 +1,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.sateraito.chatapp.MainActivity" >
+    tools:context="com.sateraito.chatapp.HomeActivity" >
 
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_sign_out"
+        android:orderInCategory="99"
+        android:showAsAction="never"
+        android:title="@string/action_sign_out"/>
+    
+    <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:icon="@drawable/ic_search"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    
+    <item android:id="@+id/action_chat_room"
+          android:icon="@drawable/ic_chat_room"
+          android:showAsAction="ifRoom"
+          android:title="@string/action_chat_room" />
 
 </menu>

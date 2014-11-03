@@ -2,6 +2,11 @@
 <resources>
 
     <string name="app_name">Chat App</string>
+    
+    <!-- Option Menu -->
     <string name="action_settings">Settings</string>
+    <string name="action_sign_out">SIGN OUT</string>
+    <string name="action_chat_room">CHAT ROOM</string>
+    <string name="search_title">Search</string>
 
 </resources>

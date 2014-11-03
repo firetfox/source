@@ -5,6 +5,10 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     
     <!-- Plash screen -->
-    <dimen name="margin_top_logo_splash">190dp</dimen>
+    <dimen name="margin_top_logo_splash">350dp</dimen>
+    
+    <!-- Login screen -->
+    <dimen name="margin_top_logo_login">100dp</dimen>
+    <dimen name="margin_top_button_login">300dp</dimen>
 
 </resources>
